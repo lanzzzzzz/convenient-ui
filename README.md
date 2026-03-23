@@ -1,3 +1,17 @@
+# Convenient UI 🚀
+
+> **基于 Vue 3 + Element Plus 的企业级 Schema 驱动组件库**
+
+[![npm version](https://img.shields.io/npm/v/@convenient-ui/vue-ui.svg?style=flat-short)](https://www.npmjs.com/package/@convenient-ui/vue-ui)
+[![npm downloads](https://img.shields.io/npm/dm/@convenient-ui/vue-ui.svg?style=flat-short)](https://www.npmjs.com/package/@convenient-ui/vue-ui)
+[![license](https://img.shields.io/github/license/lanzzzzzz/convenient-ui?style=flat-short)](https://github.com/lanzzzzzz/convenient-ui/blob/main/LICENSE)
+[![VitePress](https://img.shields.io/badge/docs-VitePress-blue?style=flat-short)](https://lanzzzzzz.github.io/convenient-ui/)
+
+[💡 设计哲学](#-设计哲学-philosophy) | [🛠️ 核心概念](#️-1-核心概念字段模型-schema) | [🚀 ProTable](#-2-核心组件protable) | [📝 ProDialogForm](#-3-核心组件prodialogform) | [📚 API 字典](#-pro-components-api-参考全字典)
+
+---
+
+
 # Pro-Components 架构级业务组件库指南
 
 ## 🌟 设计哲学 (Philosophy)
