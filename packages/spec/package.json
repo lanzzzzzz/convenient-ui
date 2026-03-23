@@ -1,0 +1,18 @@
+{
+  "name": "@convenient-ui/spec",
+  "version": "2.0.0",
+  "main": "index.js",
+  "description": "Shared ESLint, Prettier, and Stylelint configuration",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "stylelint": "^15.0.0",
+    "stylelint-config-recommended-vue": "^1.5.0",
+    "stylelint-config-standard-scss": "^11.0.0",
+    "postcss-html": "^1.5.0",
+    "postcss-scss": "^4.0.0"
+  }
+}

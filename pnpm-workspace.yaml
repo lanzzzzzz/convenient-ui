@@ -1,0 +1,7 @@
+packages:
+  - packages/*
+  - 'playgrounds/*'
+  - 'docs'
+
+ignoredBuiltDependencies:
+  - esbuild

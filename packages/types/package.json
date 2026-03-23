@@ -1,0 +1,18 @@
+{
+  "name": "@convenient-ui/types",
+  "version": "2.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vue": "^3.5.30"
+  },
+  "dependencies": {
+    "element-plus": "^2.13.2"
+  }
+}

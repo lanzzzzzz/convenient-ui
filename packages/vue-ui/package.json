@@ -1,0 +1,59 @@
+{
+  "name": "@convenient-ui/vue-ui",
+  "version": "2.0.0",
+  "description": "企业级 Pro 组件库 (包含 ProTable, ProForm, ProDialogForm)",
+  "type": "module",
+  "keywords": [
+    "vue3",
+    "element-plus",
+    "pro-table",
+    "pro-form",
+    "admin"
+  ],
+  "author": "Your Name/Team",
+  "license": "MIT",
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0",
+    "element-plus": "^2.0.0",
+    "@element-plus/icons-vue": "^2.0.0"
+  },
+  "dependencies": {
+    "@convenient-ui/types": "workspace:^",
+    "lodash-es": "^4.17.23"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.23",
+    "@types/lodash-es": "^4.17.12",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vue": "^3.0.0",
+    "element-plus": "^2.0.0",
+    "@element-plus/icons-vue": "^2.3.2",
+    "lodash-unified": "^1.0.3",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.0.0"
+  }
+}
